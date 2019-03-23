@@ -14,3 +14,5 @@ tests/coverage
 static/manifest*.json
 static/sw.js
 static/workbox-sw*.js*
+junit.xml
+coverage/
