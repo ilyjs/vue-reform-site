@@ -43,7 +43,8 @@
     "lintfix": "tslint --fix --project .",
     "post-update": "yarn upgrade --latest",
     "tslint-check": "tslint-config-prettier-check ./tslint.json",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "heroku-postbuild": "yarn run build"
   },
   "devDependencies": {
     "@nuxt/vue-app": "2.4.5",
