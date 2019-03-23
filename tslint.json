@@ -62,7 +62,8 @@
       "dist.js/**",
       ".nuxt/**",
       "tests/**",
-      "template/**"
+      "template/**",
+      "reports/**"
     ]
   }
 }

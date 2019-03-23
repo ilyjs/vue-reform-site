@@ -60,6 +60,7 @@
     "babel-preset-vue": "^2.0.2",
     "fork-ts-checker-webpack-plugin": "^1.0.0",
     "jest": "^24.5.0",
+    "jest-junit": "^6.3.0",
     "jest-serializer-vue": "^2.0.2",
     "prettier": "^1.16.4",
     "sass": "^1.17.3",
@@ -74,25 +75,5 @@
     "vue-jest": "^3.0.4",
     "vue-loader": "^15.7.0",
     "vue-template-compiler": "^2.6.10"
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "ts",
-      "json",
-      "vue"
-    ],
-    "moduleNameMapper": {
-      "^@/(.*)$": "<rootDir>/$1"
-    },
-    "transform": {
-      ".*\\.(vue)$": "vue-jest",
-      "^.+\\.tsx?$": "ts-jest"
-    },
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.ts$",
-    "snapshotSerializers": [
-      "jest-serializer-vue"
-    ],
-    "coverageDirectory": "<rootDir>/tests/coverage"
   }
 }
