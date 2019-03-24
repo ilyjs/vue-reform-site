@@ -13,7 +13,7 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   loading: { color: '#3B8070' },
-  css: [],
+  css: ['~/node_modules/bulma-helpers/css/bulma-helpers.min.css'],
   build: {},
   manifest: {
     name: 'Vue Reform',
