@@ -3,8 +3,12 @@
     <header>
       <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item" href="https://vuereform.dev">
-            <img src="/images/vue-reform-logo-nav.png" width="232" height="21">
+          <a
+            class="navbar-item"
+            href="https://vuereform.dev"
+            aria-label="Go back to Vue Reform's homepage."
+          >
+            <img src="/images/vue-reform-logo-nav.png" alt="Vue Reform" width="232" height="21">
           </a>
 
           <a
@@ -22,9 +26,9 @@
 
         <div id="navbar-main" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item">Home</a>
+            <a class="navbar-item" aria-label="Go to Vue Reform's homepage.">Home</a>
 
-            <a class="navbar-item">Documentation</a>
+            <a class="navbar-item" aria-label="Go to Vue Reform's documentation">Documentation</a>
           </div>
         </div>
       </nav>

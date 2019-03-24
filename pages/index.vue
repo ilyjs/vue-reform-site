@@ -16,12 +16,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
-import HelloBoiler from '~/components/helloboiler.vue'
 
-@Component({
-  components: {
-    HelloBoiler
-  }
-})
+@Component({})
 export default class extends Vue {}
 </script>
