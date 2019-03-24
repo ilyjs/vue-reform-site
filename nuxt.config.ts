@@ -4,11 +4,11 @@ export default {
   env: {},
   modern: !isDev,
   head: {
-    title: 'AIRLIFT Boiler',
+    title: 'Vue Reform',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'AIRLIFT Boiler' }
+      { hid: 'description', name: 'description', content: 'Vue Reform' }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
@@ -16,10 +16,10 @@ export default {
   css: [],
   build: {},
   manifest: {
-    name: 'Boiler',
-    short_name: 'boiler',
-    description: 'AIRLIFT Boiler',
-    theme_color: '#188269'
+    name: 'Vue Reform',
+    short_name: 'vuereform',
+    description: 'Vue Reform',
+    theme_color: '#DD634D'
   },
   modules: [
     '@nuxtjs/pwa',

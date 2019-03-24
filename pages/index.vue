@@ -1,12 +1,17 @@
 <template>
- <section class="section">
-   <div class="container">
-     <h1 class="title"><hello-boiler target="world"/></h1>
-      <h2 class="subtitle">
-        Looks like your boilerplate is up and running!
-      </h2>
-   </div>
- </section>
+  <section class="is-medium hero is-light is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <div class="level">
+          <div class="level-item has-text-centered">
+            <img src="images/vue-reform-logo.png" width="351" height="161" alt="Vue Reform">
+          </div>
+        </div>
+
+        <h2 class="subtitle has-text-centered">Form Creation and Rendering for Vue</h2>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script lang="ts">
@@ -18,7 +23,5 @@ import HelloBoiler from '~/components/helloboiler.vue'
     HelloBoiler
   }
 })
-export default class extends Vue {
-
-}
+export default class extends Vue {}
 </script>
