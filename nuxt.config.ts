@@ -12,7 +12,7 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
-  serverMiddleare: ['redirect-ssl'],
+  serverMiddleware: ['redirect-ssl'],
   loading: { color: '#3B8070' },
   css: [],
   build: {},
@@ -20,7 +20,8 @@ export default {
     name: 'Vue Reform',
     short_name: 'vuereform',
     description: 'Vue Reform',
-    theme_color: '#DD634D'
+    theme_color: '#DD634D',
+    start_url: 'https://vuereform.dev'
   },
   modules: [
     '@nuxtjs/pwa',
