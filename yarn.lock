@@ -10710,6 +10710,13 @@ recursive-readdir@2.2.2:
   dependencies:
     minimatch "3.0.4"
 
+redirect-ssl@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/redirect-ssl/-/redirect-ssl-1.4.0.tgz#dbba6bc9dc2f86fcd719b9f00b6f731ccfb4e22b"
+  integrity sha512-Pqm3osZjaQh2P9va00ioLEFzLuVwGb6wx+VldoZVzarRb8fso6ItxR8sVlx7lcPTxO4a8dOq8Un9Xnq/iQb5Hw==
+  dependencies:
+    is-https "^1.0.0"
+
 reflect-metadata@^0.1.12:
   version "0.1.13"
   resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"

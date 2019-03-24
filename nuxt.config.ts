@@ -12,6 +12,7 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
+  serverMiddleare: ['redirect-ssl'],
   loading: { color: '#3B8070' },
   css: [],
   build: {},
@@ -59,6 +60,10 @@ export default {
     '@nuxtjs/sitemap'
   ],
   plugins: [],
+  icon: {
+    iconSrc: 'static/images/vue-reform-logo.png',
+    targetDir: 'static/icons'
+  },
   axios: {},
   render: {
     http2: {
