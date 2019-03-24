@@ -12,7 +12,6 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
-  serverMiddleware: ['redirect-ssl'],
   loading: { color: '#3B8070' },
   css: [],
   build: {},
