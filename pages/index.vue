@@ -1,53 +1,76 @@
 <template>
-  <section class="is-medium hero is-light is-bold">
-    <div class="hero-body">
-      <div class="container">
-        <div class="level">
-          <div class="level-item has-text-centered">
-            <img src="images/vue-reform-logo.png" width="351" height="161" alt="Vue Reform">
+  <div>
+    <section class="is-medium hero is-light is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <div class="level">
+            <div class="level-item has-text-centered">
+              <img src="images/vue-reform-logo.png" width="351" height="161" alt="Vue Reform">
+            </div>
           </div>
-        </div>
 
-        <br>
+          <br>
 
-        <h2 class="subtitle has-text-centered">
-          <strong>Kickass Forms for Vue</strong>
-        </h2>
+          <h2 class="subtitle has-text-centered">
+            <strong>Kickass Forms for Vue</strong>
+          </h2>
 
-        <h2 class="subtitle has-text-centered">
-          Components to make working with forms in Vue
-          <em>fun</em> and
-          <em>easy</em>
-        </h2>
+          <h2 class="subtitle has-text-centered">
+            Components to make working with forms in Vue
+            <em>fun</em> and
+            <em>easy</em>
+          </h2>
 
-        <div class="level">
-          <div class="level-item has-text-centered">
-            <a
-              href="https://nodejs.org/api/documentation.html#documentation_stability_index"
-              class="has-margin-right-5"
-            >
-              <img
-                src="https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square"
-                alt="API stability"
+          <div class="level">
+            <div class="level-item has-text-centered">
+              <a
+                href="https://nodejs.org/api/documentation.html#documentation_stability_index"
+                class="has-margin-right-5"
               >
-            </a>
-            <a href="https://circleci.com/gh/lesharris/vue-reform" class="has-margin-right-5">
-              <img
-                src="https://circleci.com/gh/lesharris/vue-reform.svg?style=svg"
-                alt="Build Status"
+                <img
+                  src="https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square"
+                  alt="API stability"
+                >
+              </a>
+              <a href="https://circleci.com/gh/lesharris/vue-reform" class="has-margin-right-5">
+                <img
+                  src="https://circleci.com/gh/lesharris/vue-reform.svg?style=svg"
+                  alt="Build Status"
+                >
+              </a>
+              <a
+                href="https://www.codefactor.io/repository/github/lesharris/vue-reform"
+                class="has-margin-right-5"
               >
-            </a>
-            <a href="https://www.codefactor.io/repository/github/lesharris/vue-reform">
-              <img
-                src="https://www.codefactor.io/repository/github/lesharris/vue-reform/badge"
-                alt="Code Style Checks"
-              >
-            </a>
+                <img
+                  src="https://www.codefactor.io/repository/github/lesharris/vue-reform/badge"
+                  alt="Code Style Checks"
+                >
+              </a>
+              <a href="https://github.com/lesharris/vue-reform">
+                <img
+                  alt="GitHub"
+                  src="https://img.shields.io/github/license/lesharris/vue-reform.svg"
+                >
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="title">Hi there!</h1>
+        <p>
+          Well look at you, you found us super early! This site will be mostly dormant until
+          <a
+            href="https://github.com/lesharris/vue-reform"
+          >VueReform</a> is further along. Thanks for stopping by!
+        </p>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script lang="ts">
