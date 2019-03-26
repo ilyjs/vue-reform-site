@@ -42,7 +42,24 @@
 import { Component, Vue } from 'nuxt-property-decorator'
 
 @Component({})
-export default class extends Vue {}
+export default class extends Vue {
+  head() {
+    return {
+      script: [
+        {
+          type: 'application/ld+json',
+          src: JSON.stringify({
+            '@context': 'http://schema.org/',
+            '@type': 'WebSite',
+            name: 'Vue Reform',
+            alternateName: 'VueReform',
+            url: 'https://vuereform.dev'
+          })
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss">
