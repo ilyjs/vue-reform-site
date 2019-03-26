@@ -10,7 +10,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Vue Reform' }
     ],
-    link: []
+    link: [{ rel: 'stylesheet', href: 'https://use.typekit.net/cqv3gbd.css' }]
   },
   loading: { color: '#3B8070' },
   css: ['~/assets/sass/variables.scss'],

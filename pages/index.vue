@@ -60,12 +60,21 @@
               <a
                 href="https://github.com/lesharris/vue-reform"
                 target="_blank"
-                class="button is-large is-primary"
+                class="button is-large is-primary has-margin-right-5"
               >
                 <span class="icon is-medium">
                   <fa :icon="['fab', 'github']"/>
                 </span>
                 <span>Github</span>
+              </a>
+              <a
+                href="https://docs.vuereform.dev"
+                target="_blank"
+                class="button is-large is-success">
+                <span class="icon is-medium">
+                  <fa :icon="['fal', 'book-spells']"/>
+                </span>
+                <span>Docs</span>
               </a>
             </div>
           </div>

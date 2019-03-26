@@ -1,15 +1,37 @@
 @charset "utf-8";
 
-$orange: #f47c3c;
-$green: #93c54b;
-$blue: #29abe0;
-$red: #d9534f;
+$grey-lighter: #dbdee0;
+$grey-light:   #8c9b9d;
+$grey:         darken($grey-light, 18);
+$grey-dark:    darken($grey, 18);
+$grey-darker:  darken($grey, 23);
 
-$primary: #325d88 !default;
-$warning: $orange;
-$warning-invert: #fff;
+$orange: #e67e22;
+$yellow: #f1b70e;
+$green: #2ecc71;
+$turquoise: #1abc9c;
+$blue: #3498db;
+$purple: #8e44ad;
+$red: #e74c3c;
+$white-ter: #ecf0f1;
+$primary: #375a7f !default;
+$yellow-invert: #fff;
 
 $link: $orange;
+$link-hover: lighten($link, 5);
+$link-focus: darken($link, 5);
+$link-active: darken($link, 5);
+
+$button-color: $primary;
+$button-hover-color: darken($button-color, 5); // text-dark
+$button-focus: darken($button-color, 5); // text-dark
+$button-active-color: darken($button-color, 5); // text-dark
+$button-disabled-background-color: $grey-light;
+
+$family-sans-serif: soleil, sans-serif;
+$family-primary: ff-tisa-web-pro, serif;
+$family-secondary: soleil, sans-serif;
 
 @import "../../node_modules/bulma/bulma.sass";
 @import "../../node_modules/bulma-helpers/bulma-helpers.sass";
+@import "./styles.scss";
