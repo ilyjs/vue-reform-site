@@ -55,6 +55,20 @@
               </a>
             </div>
           </div>
+          <div class="level">
+            <div class="level-item has-text-centered">
+              <a
+                href="https://github.com/lesharris/vue-reform"
+                target="_blank"
+                class="button is-large is-primary"
+              >
+                <span class="icon is-medium">
+                  <fa :icon="['fab', 'github']"/>
+                </span>
+                <span>Github</span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -63,10 +77,12 @@
       <div class="container">
         <h1 class="title">Hi there!</h1>
         <p>
-          Well look at you, you found us super early! This site will be mostly dormant until
+          Well look at you, you found us super early! This site will be mostly
+          dormant until
           <a
             href="https://github.com/lesharris/vue-reform"
-          >VueReform</a> is further along. Thanks for stopping by!
+          >VueReform</a> is
+          further along. Thanks for stopping by!
         </p>
       </div>
     </section>
@@ -77,5 +93,9 @@
 import { Component, Vue } from 'nuxt-property-decorator'
 
 @Component({})
-export default class extends Vue {}
+export default class extends Vue {
+  click() {
+    console.log('clicked!')
+  }
+}
 </script>

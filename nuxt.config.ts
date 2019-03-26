@@ -10,10 +10,10 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Vue Reform' }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: []
   },
   loading: { color: '#3B8070' },
-  css: ['~/node_modules/bulma-helpers/css/bulma-helpers.min.css'],
+  css: ['~/assets/sass/variables.scss'],
   build: {},
   manifest: {
     name: 'Vue Reform',
@@ -27,7 +27,7 @@ export default {
     '@nuxtjs/component-cache',
     '@nuxtjs/axios',
     '@nuxtjs/moment',
-    ['nuxt-buefy', { css: true, materialDesignIcons: false }],
+    ['nuxt-buefy', { css: false, materialDesignIcons: false }],
     [
       'nuxt-fontawesome',
       {
@@ -44,19 +44,19 @@ export default {
         ]
       }
     ],
-    /* [
+    [
       '@nuxtjs/google-analytics',
       {
-        id: ''
+        id: 'UA-136227476-2'
       }
     ],
     [
       '@nuxtjs/google-tag-manager',
       {
-        id: '',
+        id: 'GTM-MRJC5DT',
         pageTracking: false
       }
-    ],*/
+    ],
     '@nuxtjs/sitemap'
   ],
   plugins: [],

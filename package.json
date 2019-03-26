@@ -3,6 +3,21 @@
   "description": "AIRLIFT Boiler",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "dev": "nuxt-ts dev",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "tsc": "tsc --showConfig",
+    "test": "jest --coverage",
+    "test:watch": "jest --watchAll",
+    "testc": "tsc -p tsconfig.json",
+    "lint": "tslint --project .",
+    "lintfix": "tslint --fix --project .",
+    "post-update": "yarn upgrade --latest",
+    "tslint-check": "tslint-config-prettier-check ./tslint.json",
+    "storybook": "start-storybook",
+    "heroku-postbuild": "yarn run build"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.16",
     "@fortawesome/free-brands-svg-icons": "^5.8.0",
@@ -32,21 +47,6 @@
   "engines": {
     "node": ">=8.0"
   },
-  "scripts": {
-    "dev": "nuxt-ts dev",
-    "build": "nuxt-ts build",
-    "start": "nuxt-ts start",
-    "tsc": "tsc --showConfig",
-    "test": "jest --coverage",
-    "test:watch": "jest --watchAll",
-    "testc": "tsc -p tsconfig.json",
-    "lint": "tslint --project .",
-    "lintfix": "tslint --fix --project .",
-    "post-update": "yarn upgrade --latest",
-    "tslint-check": "tslint-config-prettier-check ./tslint.json",
-    "storybook": "start-storybook",
-    "heroku-postbuild": "yarn run build"
-  },
   "devDependencies": {
     "@nuxt/vue-app": "2.4.5",
     "@storybook/addon-info": "^5.0.3",
@@ -57,6 +57,7 @@
     "@types/storybook__vue": "^5.0.0",
     "@types/webpack-env": "1.13.9",
     "@vue/test-utils": "^1.0.0-beta.29",
+    "bulma": "^0.7.4",
     "fork-ts-checker-webpack-plugin": "^1.0.0",
     "jest": "^24.5.0",
     "jest-junit": "^6.3.0",
