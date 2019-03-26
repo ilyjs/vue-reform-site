@@ -26,9 +26,13 @@
 
         <div id="navbar-main" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item" aria-label="Go to Vue Reform's homepage.">Home</a>
+            <a class="navbar-item" aria-label="Go to Vue Reform's homepage." href="/">Home</a>
 
-            <a class="navbar-item" aria-label="Go to Vue Reform's documentation">Documentation</a>
+            <a
+              class="navbar-item"
+              aria-label="Go to Vue Reform's documentation"
+              href="https://docs.vuereform.dev"
+            >Documentation</a>
           </div>
         </div>
       </nav>
