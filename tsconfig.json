@@ -1,32 +1,5 @@
 {
-  "extends": "@nuxt/typescript",
   "compilerOptions": {
-    "experimentalDecorators": true,
-    "noImplicitAny": false,
-    "strict": false,
-    "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true,
-    "baseUrl": ".",
-    "types": [
-      "@types/jest",
-      "@nuxt/vue-app",
-      "@types/node",
-      "@types/webpack-env"
-    ],
-    "plugins": [
-      {
-        "name": "typescript-tslint-plugin",
-        "configFile": "./tslint.json"
-      }
-    ],
-    "paths": {
-      "~/*": [
-        "./*"
-      ],
-      "@/*": [
-        "./*"
-      ]
-    },
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",
@@ -36,8 +9,32 @@
       "dom"
     ],
     "esModuleInterop": true,
+    "experimentalDecorators": true,
     "allowJs": true,
     "sourceMap": true,
-    "noEmit": true
+    "strict": true,
+    "noImplicitAny": false,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "./*"
+      ]
+    },
+    "types": [
+      "@types/node",
+      "@nuxt/vue-app",
+      "@types/jest",
+      "@types/webpack-env"
+    ],
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin",
+        "configFile": "./tslint.json"
+      }
+    ]
   }
 }
