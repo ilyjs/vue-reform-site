@@ -61,7 +61,7 @@ export default {
   ],
   plugins: [],
   icon: {
-    iconSrc: 'static/images/vue-reform-logo.png',
+    iconSrc: 'static/images/vue-reform-square.png',
     targetDir: 'static/icons'
   },
   axios: {},

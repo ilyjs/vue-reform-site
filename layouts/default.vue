@@ -8,7 +8,7 @@
             href="https://vuereform.dev"
             aria-label="Go back to Vue Reform's homepage."
           >
-            <img src="/images/vue-reform-logo-nav.png" alt="Vue Reform" width="232" height="21">
+            <h1 class="nav-brand">VUE REFORM</h1>
           </a>
 
           <a
@@ -26,8 +26,6 @@
 
         <div id="navbar-main" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item" aria-label="Go to Vue Reform's homepage." href="/">Home</a>
-
             <a
               class="navbar-item"
               aria-label="Go to Vue Reform's documentation"
@@ -67,4 +65,7 @@ export default class extends Vue {
 </script>
 
 <style lang="scss">
+.nav-brand {
+  font-weight: bold;
+}
 </style>

@@ -1,11 +1,11 @@
 <template>
   <div>
-    <section class="is-medium hero is-light is-bold">
+    <section class="hero is-medium is-light is-bold">
       <div class="hero-body">
         <div class="container">
           <div class="level">
             <div class="level-item has-text-centered">
-              <img src="images/vue-reform-logo.png" width="351" height="161" alt="Vue Reform">
+              <img src="images/vue-reform-logo.png" alt="Vue Reform" width="350" height="350">
             </div>
           </div>
 
@@ -70,7 +70,8 @@
               <a
                 href="https://docs.vuereform.dev"
                 target="_blank"
-                class="button is-large is-success">
+                class="button is-large is-success"
+              >
                 <span class="icon is-medium">
                   <fa :icon="['fal', 'book-spells']"/>
                 </span>
