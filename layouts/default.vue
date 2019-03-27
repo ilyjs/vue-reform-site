@@ -8,7 +8,7 @@
             href="https://vuereform.dev"
             aria-label="Go back to Vue Reform's homepage."
           >
-            <h1 class="nav-brand">VUE REFORM</h1>
+            <h1 class="title">Vue Reform</h1>
           </a>
 
           <a

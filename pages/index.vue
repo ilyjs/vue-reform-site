@@ -11,11 +11,11 @@
 
           <br>
 
-          <h2 class="subtitle has-text-centered">
+          <h1 class="title has-text-centered">
             <strong>Kickass Forms for Vue</strong>
-          </h2>
+          </h1>
 
-          <h2 class="subtitle has-text-centered">
+          <h2 class="subtitle has-text-centered is-family-primary">
             Components to make working with forms in Vue
             <em>fun</em> and
             <em>easy</em>
