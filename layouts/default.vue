@@ -45,18 +45,24 @@ import { Component, Vue } from 'nuxt-property-decorator'
 
 @Component({})
 export default class extends Vue {
+  webpageStructured = {
+    type: 'application/ld+json',
+    src: JSON.stringify({
+      '@context': 'http://schema.org/',
+      '@type': 'WebSite',
+      name: 'Vue Reform',
+      alternateName: 'VueReform',
+      url: 'https://vuereform.dev'
+    })
+  }
+
   head() {
     return {
+      __dangerouslyDisableSanitizers: ['script'],
       script: [
         {
-          type: 'application/ld+json',
-          src: JSON.stringify({
-            '@context': 'http://schema.org/',
-            '@type': 'WebSite',
-            name: 'Vue Reform',
-            alternateName: 'VueReform',
-            url: 'https://vuereform.dev'
-          })
+          innerHtml: JSON.stringify(this.webpageStructured),
+          type: 'application/ld+json'
         }
       ]
     }
