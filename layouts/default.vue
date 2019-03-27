@@ -41,31 +41,17 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'nuxt-property-decorator'
+import { Component, mixins } from 'nuxt-property-decorator'
+import StructuredData from '../components/mixins/structured-data'
 
 @Component({})
-export default class extends Vue {
-  webpageStructured = {
-    type: 'application/ld+json',
-    src: JSON.stringify({
-      '@context': 'http://schema.org/',
-      '@type': 'WebSite',
-      name: 'Vue Reform',
-      alternateName: 'VueReform',
-      url: 'https://vuereform.dev'
-    })
-  }
-
-  head() {
-    return {
-      __dangerouslyDisableSanitizers: ['script'],
-      script: [
-        {
-          innerHTML: JSON.stringify(this.webpageStructured),
-          type: 'application/ld+json'
-        }
-      ]
-    }
+export default class extends mixins(StructuredData) {
+  structuredData = {
+    "@context": "http://schema.org/",
+    "@type": "WebSite",
+    "name": "Vue Reform",
+    "alternateName": "vuereform",
+    "url": "https://vuereform.dev"
   }
 }
 </script>
