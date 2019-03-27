@@ -61,7 +61,7 @@ export default class extends Vue {
       __dangerouslyDisableSanitizers: ['script'],
       script: [
         {
-          innerHtml: JSON.stringify(this.webpageStructured),
+          innerHTML: JSON.stringify(this.webpageStructured),
           type: 'application/ld+json'
         }
       ]
