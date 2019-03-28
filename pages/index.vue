@@ -1,11 +1,11 @@
 <template>
   <div>
-    <section class="hero is-medium is-light is-bold">
+    <section class="hero is-dark is-bold has-margin-top-10">
       <div class="hero-body">
         <div class="container">
           <div class="level">
             <div class="level-item has-text-centered">
-              <img src="images/vue-reform-logo-main.png" alt="Vue Reform" width="350" height="350">
+              <img src="images/vue-reform-logo-dark.png" alt="Vue Reform" width="350" height="350">
             </div>
           </div>
 
