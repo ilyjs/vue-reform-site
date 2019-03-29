@@ -99,8 +99,10 @@
       </div>
     </section>
     <section>
-      <h1>Features</h1>
-      <p>Lots of cool features here...</p>
+      <div class="container">
+        <h1 class="title">Features</h1>
+        <p>Lots of cool features here...</p>
+      </div>
     </section>
   </div>
 </template>
