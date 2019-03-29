@@ -60,6 +60,7 @@
               <a
                 href="https://github.com/lesharris/vue-reform"
                 target="_blank"
+                rel="noreferrer"
                 class="button is-large is-primary has-margin-right-5"
               >
                 <span class="icon is-medium">
@@ -70,6 +71,7 @@
               <a
                 href="https://docs.vuereform.dev"
                 target="_blank"
+                rel="noreferrer"
                 class="button is-large is-success"
               >
                 <span class="icon is-medium">
