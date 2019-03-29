@@ -98,6 +98,10 @@
         </p>
       </div>
     </section>
+    <section>
+      <h1>Features</h1>
+      <p>Lots of cool features here...</p>
+    </section>
   </div>
 </template>
 
