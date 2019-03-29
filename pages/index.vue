@@ -104,6 +104,12 @@
         <p>Lots of cool features here...</p>
       </div>
     </section>
+    <section>
+      <div class="container">
+        <h1 class="title">Examples</h1>
+        <p>Lots of cool examples here...</p>
+      </div>
+    </section>
   </div>
 </template>
 
